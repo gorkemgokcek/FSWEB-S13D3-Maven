@@ -17,8 +17,8 @@ public class Person {
     // constructor overloading
     public Person(String firstname, String lastName, int age, int height, int weight, String job) {
         this(firstname,lastName,age);
-        this.height = weight;
-        this.weight = height;
+        this.weight = weight;
+        this.height = height;
         this.job = job;
     }
 
